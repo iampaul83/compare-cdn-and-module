@@ -1,0 +1,26 @@
+{
+  "name": "compare-cdn-and-module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack index.js bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iampaul83/compare-cdn-and-module.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iampaul83/compare-cdn-and-module/issues"
+  },
+  "homepage": "https://github.com/iampaul83/compare-cdn-and-module#readme",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "webpack": "^3.6.0"
+  }
+}

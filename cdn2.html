@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <h1>CDN-based</h1>
+        <button onclick="onClick()">Click</button>
+        <button onclick="$ = ''">Kill jQuery</button>
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script>
+            // 把下面的註解解開，以弄壞 jQuery
+            // $ = ''
+        </script>
+        <script src="cdn2.js"></script>
+    </body>
+</html>
